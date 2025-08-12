@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Accesorios de Motos "Gladiadores"</h1>
+    <button id="boton-carrito" class="icono" aria-label="abrir carrito">
+        <img src="imagen/shopping-cart(1).png" alt="carrito">
+        <span id="contador-carrito" class="contador-carrito">0</span>
+    </button>
+</header>
+    <main id="contenedor-productos">  </main>
+
+    <aside id="carrito" class="carrito">
+
+        <button id="cerrar-carrito" aria-label="Cerrar carrito">✖</button>
+        <h2>Carrito de compras</h2>
+        <div id="carrito-dinamico-interno">
+            <p>El carrito está vacio</p>
+        </div>
+        <div id="total"></div>
+        <button id="finalizar-compra" class="finalizar-compra">Finalizar compra</button>
+
+    </aside>
+
+    <footer>
+        <p>Venta de Accesorio de Motos "Gladiadores"</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
